@@ -1,3 +1,20 @@
+
+<p align="center">
+  <h1 align="center">🏦 NexusBank</h1>
+  <p align="center">
+    Secure • Smart • Modern Digital Banking Platform
+  </p>
+
+  <p align="center">
+    <img src="https://img.shields.io/badge/React-19-blue?logo=react">
+    <img src="https://img.shields.io/badge/Node.js-Express-green?logo=node.js">
+    <img src="https://img.shields.io/badge/MongoDB-Database-green?logo=mongodb">
+    <img src="https://img.shields.io/badge/JWT-Authentication-orange">
+    <img src="https://img.shields.io/badge/License-MIT-blue">
+  </p>
+</p>
+
+---
 # 🏦 NexusBank - Smart Digital Banking Platform
 
 NexusBank is a full-stack digital banking application built using the MERN Stack. It provides secure banking operations with JWT authentication, fraud detection, transaction analytics, beneficiary management, and an admin dashboard.
@@ -36,6 +53,25 @@ NexusBank is a full-stack digital banking application built using the MERN Stack
 - bcrypt
 - Helmet
 - Express Validator
+
+---
+---
+
+## 📸 Project Preview
+
+> Screenshots will be added soon.
+
+| Login | Dashboard |
+|--------|-----------|
+| Coming Soon | Coming Soon |
+
+| Transfer Money | Transaction History |
+|----------------|---------------------|
+| Coming Soon | Coming Soon |
+
+| Admin Dashboard | Fraud Detection |
+|-----------------|-----------------|
+| Coming Soon | Coming Soon |
 
 ---
 
@@ -116,3 +152,31 @@ The application detects suspicious transactions using rule-based fraud analysis,
 **Shashwat Jha**
 
 GitHub: https://github.com/shashwatjha-dev
+---
+
+## 📡 API Endpoints
+
+### Authentication
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/api/auth/register` | Register a new user |
+| POST | `/api/auth/login` | Login user |
+| GET | `/api/auth/me` | Get logged-in user |
+
+### Banking
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/api/accounts` | Get account details |
+| POST | `/api/transfers` | Transfer money |
+| GET | `/api/transactions` | Transaction history |
+| GET | `/api/beneficiaries` | Get beneficiaries |
+| POST | `/api/beneficiaries` | Add beneficiary |
+
+### Admin
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/api/admin/dashboard` | Dashboard statistics |
+| GET | `/api/admin/fraud` | Fraud monitoring |
